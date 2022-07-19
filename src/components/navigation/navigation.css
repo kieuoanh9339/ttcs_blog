@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.short_cut-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.navigation_list {
+  background-color: white;
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  text-align: center;
+}
+.navigation-blog,
+.navigation-contact,
+.navigation-about {
+  padding: 15px 30px;
+  text-align: center;
+}
+.navigation_item {
+  position: absolute;
+  height: 0;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  transition: 0.2s;
+  overflow: hidden;
+}
+
+.navigation_logo:hover {
+  cursor: pointer;
+}
+.navigation_item.show {
+  height: 192px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation_item {
+    position: relative;
+    width: auto;
+    border: none;
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation_list {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navigation_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation_icon .menu-toggle {
+    display: none;
+  }
+}
+
+.navigation_icon > div:not(:first-child) {
+  margin-left: 10px;
+}
+.navigation_list :hover {
+  cursor: pointer;
+  color: #7ceb96;
+}

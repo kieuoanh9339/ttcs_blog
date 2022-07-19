@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #d4dde2;
+  padding: 10px 12px;
+}
+
+.post-table__parent {
+  padding: 10px 15px;
+}
+
+.post-table__parent .table-topbar {
+  padding: 15px 0;
+}
+
+.table-topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter select {
+  padding: 3px;
+  cursor: pointer;
+}
+
+.new-post,
+.btn-edit,
+.btn-delete {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-delete,
+.btn-edit {
+  margin: 5px 5px;
+}

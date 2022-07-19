@@ -1,0 +1,54 @@
+.ql-container.ql-snow .ql-editor {
+  min-height: 300px;
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border-left: none;
+  border-right: none;
+}
+
+.wrapper__editor {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.editor__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.editor__add_post,
+.editor__exit_add_post {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.title_post {
+  width: 30%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+}
+
+.title_post {
+  resize: none;
+  height: 38px;
+}
+
+.addPost__category {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+}
+
+.ql-editor p img {
+  margin: 0 auto;
+}

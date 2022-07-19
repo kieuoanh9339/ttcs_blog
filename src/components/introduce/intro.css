@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&family=Cormorant:ital,wght@1,600&family=EB+Garamond&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&family=Cormorant:ital,wght@1,600&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+
+.introduce{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+.intro_item .intro_text{
+    margin: 0;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 50px;
+    font-family: 'EB Garamond', serif;
+}
+.intro_item .more_inf{
+    margin: 0;
+    padding:0px 20px 30px 30px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #606060;
+}
+.navigation_icon  a{ 
+    color:black !important;
+}

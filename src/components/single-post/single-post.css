@@ -1,0 +1,27 @@
+.single-post {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.single-post .post-entry__header {
+    text-align: center;
+    padding: 20px;
+}
+
+.single-post .main-content {
+    padding: 20px;
+}
+
+.name_post span {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.post-entry__header .subtitle {
+    margin-top: 10px;
+}
